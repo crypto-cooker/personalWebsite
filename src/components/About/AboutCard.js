@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mateo Kova </span>
-            from <span className="purple"> Belgrade, Serbia.</span>
+             <span className="purple"> Blockchain Web3 dev.</span>
             <br />
             I am currently looking for new opportunities.
             <br />
