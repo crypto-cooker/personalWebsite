@@ -452,13 +452,16 @@ button:focus {
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
   height: auto !important;
 }
 
+.card-body {
+  padding: 0px 0px !important;
+}
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
