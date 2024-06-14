@@ -9,7 +9,12 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <a href={props.title} target="_blank" style={{color: "white"}}>{props.title}</a>
+        {
+          props.title.includes("https://") && <a href={props.title} target="_blank" style={{color: "white"}}>{props.title}</a>
+        }
+        {
+          !props.title.includes("https://") && <p style={{color: "white"}}>{props.title}</p>
+        }
       </Card.Body>
     </Card>
   );

@@ -8,6 +8,12 @@ import pic3 from "../../Assets/Projects/3.png";
 import pic4 from "../../Assets/Projects/4.png";
 import pic5 from "../../Assets/Projects/5.png";
 import pic6 from "../../Assets/Projects/6.png";
+import pic7 from "../../Assets/Projects/7.png";
+import pic8 from "../../Assets/Projects/8.png";
+import pic9 from "../../Assets/Projects/9.png";
+import pic10 from "../../Assets/Projects/10.png";
+import pic11 from "../../Assets/Projects/11.png";
+import pic12 from "../../Assets/Projects/12.png";
 
 function Projects() {
   return (
@@ -59,6 +65,43 @@ function Projects() {
             />
           </Col>
 
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={pic7}
+              title="https://binky.doodlebunnyflr.live/"
+            />
+          </Col>
+
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={pic8}
+              title="https://cryptolegions.app"
+            />
+          </Col>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={pic9}
+              title="Telegram Group Help Bot"
+            />
+          </Col>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={pic10}
+              title="Crypto Payment Bot"
+            />
+          </Col>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={pic11}
+              title="Super Advertisement Discord Bot"
+            />
+          </Col>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={pic12}
+              title="SCOT Token Airdrop Bot"
+            />
+          </Col>
         </Row>
     </Container>
   );
