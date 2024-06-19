@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import pic0 from "../../Assets/Projects/0.png";
 import chatify from "../../Assets/Projects/1.png";
 import pic2 from "../../Assets/Projects/2.png";
 import pic3 from "../../Assets/Projects/3.png";
@@ -26,6 +27,13 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
+          <Col md={3} className="project-card">
+            <ProjectCard
+              imgPath={pic0}
+              title="https://stakestone.io/"
+            />
+          </Col>
+          
           <Col md={3} className="project-card">
             <ProjectCard
               imgPath={chatify}
