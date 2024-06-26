@@ -45,16 +45,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/cryptocooker"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="mailto:mateo.kova0510@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
